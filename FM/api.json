@@ -314,7 +314,7 @@
             "name": "🌖┃米搜┃网盘",
             "type": 3,
             "api": "csp_MiSou",
-            "ext": "hhttp://127.0.0.1:9978/file/TVBox/quark.txt"
+            "ext": "http://127.0.0.1:9978/file/TVBox/quark.txt"
         },
         {
             "key": "csp_PanSearch",
