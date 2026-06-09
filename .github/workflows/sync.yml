@@ -2,7 +2,6 @@ name: Sync Fork
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: '0 */24 * * *'
 
@@ -19,7 +18,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Sync upstream
+      - name: Sync from upstream (keep my commits)
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
@@ -30,6 +29,6 @@ jobs:
 
           git checkout main
 
-          git merge upstream/main --no-edit
+          git rebase upstream/main
 
-          git push origin main
+          git push origin main --force-with-lease
