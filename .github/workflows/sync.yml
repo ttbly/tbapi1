@@ -1,21 +1,35 @@
 name: Sync Fork
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
+
+  schedule:
+    - cron: '0 */24 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Sync upstream
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3
-        with:
-          upstream_sync_repo: ttbly/tvboxsource
-          upstream_sync_branch: main
-          target_sync_branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git remote add upstream https://github.com/ls125781003/tbapi1.git || true
+
+          git fetch upstream
+
+          git checkout main
+
+          git merge upstream/main --no-edit
+
+          git push origin main
