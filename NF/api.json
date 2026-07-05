@@ -825,30 +825,6 @@
             }
         },
         {
-            "key": "FourKZN",
-            "name": "️4️⃣4k指南",
-            "type": 3,
-            "api": "csp_FourKZN",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "./json/peizhi.json"
-            }
-        },
-        {
-            "key": "盘Ta",
-            "name": "🍥盘Ta",
-            "type": 3,
-            "api": "csp_PanTa",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-            "ext": {
-                "siteUrl": "https://www.91panta.cn/",
-                "commonConfig": "./json/peizhi.json"
-            }
-        },
-        {
             "key": "网盘集合",
             "name": "🅿网盘集合|4K",
             "type": 3,
