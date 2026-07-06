@@ -47,7 +47,7 @@
       "timeout": 15,
       "api": "csp_Duopan",
       "filterable": 1,
-      "ext": "N/01JeZBCBEQ0wOXNuAI/o0m0ISTSGY4YIqieW4PO7Bhg/O8J6kFcgo5lFnnTV5oGFu1hcPVkBPZy5wZc9Hoq4PGebzlCMd7ze3mrHsHYuGe8y0dYEU6j9DgBXZrNqamzVl1Td8NV7nj1NFLyU8I4ISTxhQBO+Ue7GT3EeBxt157MxYWRwInJHZlvcH5uxTu+QfY1kGQ23EGHuk4JY/HV/U8n34h+DS5IteV9vf4rcv7LTTwrmpcr6f1iQmzix/5lQh+HrLZqhCBnBHGhNonz6+ZtkunHAlK86i1oWUEvGkUmKlrJJzSXPw/NBFSDBVOB0YBBDVfeDYHlNnTzJti0KyRQbnnkvzz5pXJcAwfNyPSjxxdRWdiaeAAdXZ3jGn5LNm3tYiPrL4qOYRuzido+CRkAf8bv1x9pr7RSd+P00Sj6PeZdNaL8CaQ2kdf6JUsEOhhQB7sWu8XgEUeUq6SC5izJabxXtHL7l1Bcm2zD8WTXfE+/+9PRwTJGInS7f+MktgujF8y50EriqMA0KoMbQ=="
+      "ext": "mAdMvijsdpLz+xMtYQCW1nJ+mpefKKrleWG+USa3HASAr6sd0jaioPf989yCJTRmaPjPczBV4n++TFAHuLmjmG2nyKoM6EsW+zAy/m/+awddPA/jEzqCvY+/+cgDWGhqepbGIr5nhlxUK9cRtykOKS4xDjdvBwLMaFBm5h2NiW5DbWfx3o3ky80vMftHiVzkktNciYTifDtXPgbHf93cbty1Rsc25OsKXHIs6wmOVdm2ZB89Lejx5WhtrwW9vDOMDBPuXqV78qqBCR9p6vtJeghYMKobiM+WMWfIC+uikXStEjq93YkNQe0bYo/mkTN6"
     },
     {
       "key": "csp_Wogg",
@@ -264,6 +264,48 @@
         "package": "com.guwozhuijux.app",
         "buildNumber": "2001",
         "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
+      }
+    },
+    {
+      "key": "天堂",
+      "name": "👀天堂丨1080P",
+      "type": 3,
+      "jar": "./jars/天堂.jar",
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "电影天堂",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.dytiantang.one",
+        "host": "",
+        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+        "version": "3.0.0.7",
+        "decrypt": "0"
+      }
+    },
+    {
+      "key": "橘汁",
+      "name": "👀橘汁丨1080P",
+      "type": 3,
+      "jar": "./jars/天堂.jar",
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.lxf.snzlcgtzxyx",
+        "host": "",
+        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+        "version": "3.0.2.1",
+        "decrypt": "1"
       }
     },
     {
