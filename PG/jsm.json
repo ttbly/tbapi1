@@ -102,6 +102,22 @@
 				"ratio": 1.77
 			}
 		},
+		{
+         "key": "光鸭社区",
+         "name": "光鸭社区",
+         "type": 3,
+         "api": "csp_GuangYaShequ",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 0,
+         "ext": {
+             "page_size": 40,
+             "tmdb_key": "2894d9a1baf7812b451de03c801b0281",
+             "tmdb_api": "https://api.tmdb.org",
+             "tmdb_img": "https://images.tmdb.org/t/p",
+             "cache_file": "/storage/emulated/0/TV/gy_tmdb_pic_cache.json"
+            }
+        },
 		{"key":"PanSouGo","name":"PanSouGo|网盘","type":3,"api":"csp_PanSouGo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://api1:8001|http://api2:8001$$$noproxy$$$0$$$PANSOUGO$$$user$$$pass$$$ALL$$$+1080p|4K|-广告|预告"}
 		{"key":"Guanying","name":"观影|网盘|磁力","type":3,"api":"csp_Guanying","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.xn--74qz10cqsltibh40akss.com/$$$proxy$$$1$$$./lib/guanying.txt$$$GUANYING"},
 		{"key":"FourKZN","name":"4K指南|网盘|磁力","type":3,"api":"csp_FourKZN","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://4kzn.com/$$$noproxy$$$1$$$./lib/4kzn.txt$$$4KZN"},
