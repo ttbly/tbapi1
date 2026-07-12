@@ -69,7 +69,7 @@
       "timeout": 15,
       "api": "csp_Duopan",
       "filterable": 1,
-      "ext": "ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cDovL3R2cGFucGFuLnNpdGUiLAogICAgImh0dHA6Ly9mZWltby5mdW4iLAogICAgImh0dHA6Ly94aWFvY2dlZ2Uuc2hvcCIsCiAgICAiaHR0cDovL3d3dy54aWFvY2dlZ2Uuc2hvcCIsCiAgICAiaHR0cHM6Ly93d3cueGlhb2NnZS5mdW4iCiAgXSwKICAidXJsX2tleSI6ICJEdW9wYW40Igp9"
+      "ext": "ewogICAgICAgICJzaXRlX3VybHMiOiBbCiAgICAgICAgICAiaHR0cDovL3R2cGFucGFuLnNpdGUiLAogICAgICAgICAgImh0dHA6Ly9mZWltby5mdW4iLAogICAgICAgICAgImh0dHA6Ly94aWFvY2dlZ2Uuc2hvcCIsCiAgICAgICAgICAiaHR0cHM6Ly93d3cubW1wYW5wYW4uc2l0ZSIsCiAgICAgICAgICAiaHR0cDovL3d3dy54aWFvY2dlZ2Uuc2hvcCIKICAgICAgICBdLAogICAgICAgICJ1cmxfa2V5IjogIkR1b3BhbjQiCiAgICAgIH0="
     },
     {
       "key": "天天",
