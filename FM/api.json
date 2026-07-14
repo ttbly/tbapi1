@@ -1,7 +1,7 @@
 {
   "spider": "./spider.jar",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "logo": "http://肥猫.net/fm.gif",
+  "logo": "http://xn--z7x900a.net/fm.gif",
   "sites": [
     {
       "key": "豆瓣",
@@ -54,8 +54,8 @@
           "http://tvpanpan.site",
           "http://feimo.fun",
           "http://xiaocgege.shop",
-          "https://www.mmpanpan.site",
-          "http://www.xiaocgege.shop"
+          "http://www.xiaocgege.shop",
+          "https://www.xiaocge.fun"
         ],
         "threadinfo": {
           "chunksize": 512,
@@ -139,7 +139,7 @@
       "name": "🫛┃蔬菜┃APP",
       "type": 3,
       "api": "csp_AppGet",
-      "ext": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt|88689667dce61725"
+      "ext": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt|88689667dce61725"
     },
     {
       "key": "永永",
