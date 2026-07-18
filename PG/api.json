@@ -176,6 +176,8 @@
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"
 		},
+		{"key": "盘链", "name": "盘链|网盘", "type": 3, "api": "csp_PingLian", "searchable": 1, "timeout": 60, "ext": "./lib/tokenm.json$$$https://pinglian.lol$$$$$$0$$$$$$PANLIAN$$$USER$$$PASS"},
+        {"key": "csp_Qwmp4", "name": "七味|网盘|磁力", "type": 3, "api": "csp_Qwmp4", "searchable": 1, "quickSearch": 1, "filterable": 0, "timeout": 60, "ext": "./lib/tokenm.json$$$https://www.qwmp4.com/$$$noproxy$$$0$$$$$QIWEI"},
 		{"key":"LIBVIO_","name":"LIBVIO|网盘_","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.libvio.io/$$$noproxy$$$1"},
 		{"key":"Moli_","name":"HDmoli|网盘_","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.com/$$$noproxy$$$1$$$./lib/moli.json"},
 		{"key":"LIBVIO","name":"LIBVIO|网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://www.libvio.mov/$$$noproxy$$$1"},
