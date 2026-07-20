@@ -4,7 +4,7 @@
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
-      "key": "NewDouBan",
+      "key": "Douban",
       "name": "🐮【王二小放牛娃】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
@@ -15,8 +15,8 @@
       "ext": "./txt/20260414181247-ae51abfbfe.txt"
     },
     {
-      "key": "Doubana",
-      "name": "🐮【更新日期:20260717】🐮",
+      "key": "Doubanaaaa",
+      "name": "🐮【更新日期:20260720】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -26,20 +26,22 @@
       "ext": "./txt/20260414181247-ae51abfbfe.txt"
     },
     {
-      "key": "Doubana",
-      "name": "⬇️【网盘类先扫码】⬇️",
-      "type": 3,
-      "api": "csp_NewDouBanGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./txt/20260414181247-ae51abfbfe.txt"
-    },
-    {
       "key": "Wexconfig",
       "name": "🐮配置┃中心🐮",
       "type": 3,
-      "api": "csp_WexConfigGuard",
+      "api": "csp_PanConfigGuard",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "MyPan",
+      "name": "🐮我的┃网盘🐮",
+      "type": 3,
+      "api": "csp_MyPanGuard",
       "searchable": 0,
       "changeable": 0,
       "indexs": 0,
@@ -51,7 +53,7 @@
       "key": "二小",
       "name": "💓‍指南┃4K💓‍",
       "type": 3,
-      "api": "csp_NewErXiaoGuard",
+      "api": "csp_AiNewXiaoPanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -60,7 +62,25 @@
       "key": "玩偶",
       "name": "💓‍玩偶┃4K💓‍",
       "type": 3,
-      "api": "csp_NewWoggGuard",
+      "api": "csp_AiNewWoggGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AiNewGuanYing",
+      "name": "💓‍观影┃4K💓‍",
+      "type": 3,
+      "api": "csp_AiNewGuanYingGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AiQwMkv",
+      "name": "💓‍七味┃4K💓‍",
+      "type": 3,
+      "api": "csp_AiQwMkvGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -69,72 +89,88 @@
       "key": "NewZhiZhen",
       "name": "💓至臻┃4K💓",
       "type": 3,
-      "api": "csp_NewZhiZhenGuard",
+      "api": "csp_AiNewZhiZhenGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "NewGuanYing",
-      "name": "💓观影┃4K💓",
+      "key": "AiNewPanLian",
+      "name": "💓盘链┃4K💓",
       "type": 3,
-      "api": "csp_NewGuanYingGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 120
-    },
-    {
-      "key": "NewJuTou",
-      "name": "💓剧透┃4K💓",
-      "type": 3,
-      "api": "csp_NewJuTouGuard",
+      "api": "csp_AiNewPanLianGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "NewHuBan",
+      "key": "AiNewHuBan",
       "name": "💓虎斑┃4K💓",
       "type": 3,
-      "api": "csp_NewHuBanGuard",
+      "api": "csp_AiNewHuBanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "NewMuOu",
+      "key": "AiNewMuOu",
       "name": "💓木偶┃4K💓",
       "type": 3,
-      "api": "csp_NewMuOuGuard",
+      "api": "csp_AiNewMuOuGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "NewDuoDuo",
+      "key": "AiNewDuoDuo",
       "name": "💓多多┃4K💓",
       "type": 3,
-      "api": "csp_NewDuoDuoGuard",
+      "api": "csp_AiNewDuoDuoGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 120
+      "changeable": 0
+    },
+    {
+      "key": "AiNewJuTou",
+      "name": "💓剧透┃4K💓",
+      "type": 3,
+      "api": "csp_AiNewJuTouGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
       "key": "原盘",
       "name": "💓‍原盘┃4K💓‍",
       "type": 3,
-      "api": "csp_New4KZnGuard",
+      "api": "csp_AiNewZhiNan4KGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "NewPanMe123",
-      "name": "💓123┃4K💓",
+      "key": "AiGuangYaZhenYing",
+      "name": "💓光鸭┃4K💓",
       "type": 3,
-      "api": "csp_NewPanMe123Guard",
+      "api": "csp_AiGuangYaZhenYingGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AiPan1Me",
+      "name": "💓盘迷┃4K💓",
+      "type": 3,
+      "api": "csp_AiPan1MeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AiNewYiDong4K",
+      "name": "💓逸动┃4K💓",
+      "type": 3,
+      "api": "csp_AiNewYiDong4KGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -143,16 +179,61 @@
       "key": "WexHanXiaoQuan",
       "name": "💥韩剧┃秒播💥",
       "type": 3,
-      "api": "csp_WexHanXiaoQuanGuard",
+      "api": "csp_WexAiHanXiaoQuanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexGuaZi",
+      "key": "WexAiGuaZi",
       "name": "💥瓜子┃秒播💥",
       "type": 3,
-      "api": "csp_WexGuaZiGuard",
+      "api": "csp_WexAiGuaZiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiDuBoKu",
+      "name": "💥独播┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiDuBoKuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiYueYue",
+      "name": "💥闪电┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiYueYueGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiWenCai",
+      "name": "💥文才┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiWenCaiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiV6DaShiXiong",
+      "name": "💥师兄┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiV6DaShiXiongGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiV6TeGou",
+      "name": "💥太狗┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiV6TeGouGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -161,158 +242,104 @@
       "key": "賤賤",
       "name": "💥贱片┃秒播💥",
       "type": 3,
-      "api": "csp_WexJianPianGuard",
+      "api": "csp_WexAiJianPianGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexWenCai",
-      "name": "💥文才┃秒播💥",
-      "type": 3,
-      "api": "csp_WexWenCaiGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexDuBoKu",
-      "name": "💥独播┃秒播💥",
-      "type": 3,
-      "api": "csp_WexDuBoKuGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexYueYue",
-      "name": "💥闪电┃秒播💥",
-      "type": 3,
-      "api": "csp_WexYueYueGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexV6DaShiXiong",
-      "name": "💥师兄┃秒播💥",
-      "type": 3,
-      "api": "csp_WexV6DaShiXiongGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexV6TeGou",
-      "name": "💥太狗┃秒播💥",
-      "type": 3,
-      "api": "csp_WexV6TeGouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexYiYs",
+      "key": "WexAiYiYs",
       "name": "💥伊影┃秒播💥",
       "type": 3,
-      "api": "csp_WexYiYsGuard",
+      "api": "csp_WexAiYiYsGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexReBo",
+      "key": "WexAiReBo",
       "name": "💥热播┃秒播💥",
       "type": 3,
-      "api": "csp_WexReBoGuard",
+      "api": "csp_WexAiReBoGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexBoBo",
+      "key": "WexAiBoBo",
       "name": "🎇伯伯┃秒播🎇",
       "type": 3,
-      "api": "csp_WexBoBoGuard",
+      "api": "csp_WexAiBoBoGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "新6V",
-      "name": "🎇新6V┃磁力🎇",
-      "type": 3,
-      "api": "csp_WexXb6vGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexIkanBot",
+      "key": "WexAiIkanBot",
       "name": "🎇爱看┃采集🎇",
       "type": 3,
-      "api": "csp_WexIkanBotGuard",
+      "api": "csp_WexAiIkanBotGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "LiveHuYa",
+      "key": "LiveAiHuYa",
       "name": "🐯‍虎牙┃直播🐯‍",
       "type": 3,
-      "api": "csp_LiveHuYaGuard",
+      "api": "csp_LiveAiHuYaGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "LiveDouYu",
+      "key": "LiveAiDouYu",
       "name": "🐳斗鱼┃直播🐳",
       "type": 3,
-      "api": "csp_LiveDouYuGuard",
+      "api": "csp_LiveAiDouYuGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "LiveBiLi",
+      "key": "LiveAiBiLi",
       "name": "🅱️哔哩┃直播🅱️",
       "type": 3,
-      "api": "csp_LiveBiLiGuard",
+      "api": "csp_LiveAiBiLiGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "ManJuHongGuo",
+      "key": "ManJuAiHongGuo",
       "name": "🍉漫短┃小红🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_ManJuHongGuoGuard",
+      "api": "csp_ManJuAiHongGuoGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "ManJuHuoLong",
+      "key": "ManJuAiHuoLong",
       "name": "🍉漫剧┃小龙🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_ManJuHuoLongGuard",
+      "api": "csp_ManJuAiHuoLongGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "ManJuQiMao",
+      "key": "ManJuAiQiMao",
       "name": "🍉漫剧┃小猫🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_ManJuQiMaoGuard",
+      "api": "csp_ManJuAiQiMaoGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "ManJuXiFan",
+      "key": "ManJuAiXiFan",
       "name": "🍉漫短┃小喜🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_ManJuXiFanGuard",
+      "api": "csp_ManJuAiXiFanGuard",
       "searchable": 1,
       "changeable": 0
     },
@@ -321,120 +348,108 @@
       "name": "🍉漫短┃小马🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_DuanJuHeMaGuard",
+      "api": "csp_ManJuAiHeMaGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "DuanJuHaoKan",
+      "key": "DuanJuAiHaoKan",
       "name": "🍉短剧┃好看🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_DuanJuHaoKanGuard",
+      "api": "csp_DuanJuAiHaoKanGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "DuanJuQiMiao",
+      "key": "DuanJuAiQiMiao",
       "name": "🍉短剧┃小猫🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_DuanJuQiMiaoGuard",
+      "api": "csp_DuanJuAiQiMiaoGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "DuanJuXingYa",
+      "key": "DuanJuAiXingYa",
       "name": "🍉短剧┃星星🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_DuanJuXingYaGuard",
+      "api": "csp_DuanJuAiXingYaGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "DuanJuWeiGuan",
+      "key": "DuanJuAiWeiGuan",
       "name": "🍉短剧┃小薇🍉",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_DuanJuWeiGuanGuard",
+      "api": "csp_DuanJuAiWeiGuanGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "AnimeFanShu",
+      "key": "AnimeAiFanShu",
       "name": "🤡番薯┃动漫🤡",
       "type": 3,
-      "api": "csp_AnimeFanShuGuard",
+      "api": "csp_AnimeAiFanShuGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "AnimeMiaoWuGuard",
+      "key": "AnimeAiMiaoWu",
       "name": "🤡喵呜┃动漫🤡",
       "type": 3,
-      "api": "csp_AnimeMiaoWuGuard",
+      "api": "csp_AnimeAiMiaoWuGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "AnimeHuaziGuard",
+      "key": "AnimeAiHuazi",
       "name": "🤡花海┃动漫🤡",
       "type": 3,
-      "api": "csp_AnimeHuaziGuard",
+      "api": "csp_AnimeAiHuaziGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "AnimeMoDu",
+      "key": "AnimeAiMoDu",
       "name": "🤡魔都┃动漫🤡",
       "type": 3,
-      "api": "csp_AnimeMoDuGuard",
+      "api": "csp_AnimeAiMoDuGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "BookShiJie",
+      "key": "BookAiShiJie",
       "name": "🎃‍极品┃听书🎃",
       "type": 3,
-      "api": "csp_BookShiJieGuard",
+      "api": "csp_BookAiShiJieGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "BookYueTing",
+      "key": "BookAiYueTing",
       "name": "🎃‍悦庭┃听书🎃",
       "type": 3,
-      "api": "csp_BookYueTingGuard",
+      "api": "csp_BookAiYueTingGuard",
       "searchable": 1,
       "changeable": 0,
       "timeout": 120
     },
     {
-      "key": "Book23TingShu",
+      "key": "BookAi23TingShu",
       "name": "🎃‍爱上┃听书🎃",
       "type": 3,
-      "api": "csp_Book23TingShuGuard",
+      "api": "csp_BookAi23TingShuGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "ChildrenDuoDuo",
-      "name": "👼多多┃儿歌👼",
-      "type": 3,
-      "api": "csp_ChildrenDuoDuoGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-      }
-    },
-    {
-      "key": "ChildrenBaoBao",
+      "key": "ChildrenAiBaoBao",
       "name": "👼宝宝┃儿歌👼",
       "type": 3,
-      "api": "csp_ChildrenBaoBaoGuard",
+      "api": "csp_ChildrenAiBaoBaoGuard",
       "searchable": 1,
       "changeable": 0,
       "style": {
@@ -443,10 +458,10 @@
       }
     },
     {
-      "key": "ChildrenBeiWa",
+      "key": "ChildrenAiBeiWa",
       "name": "👼贝贝┃儿歌👼",
       "type": 3,
-      "api": "csp_ChildrenBeiWaGuard",
+      "api": "csp_ChildrenAiBeiWaGuard",
       "searchable": 1,
       "changeable": 0,
       "style": {
@@ -455,10 +470,10 @@
       }
     },
     {
-      "key": "ChildrenTuTu",
+      "key": "ChildrenAiTuTu",
       "name": "👼兔兔┃儿歌👼",
       "type": 3,
-      "api": "csp_ChildrenTuTuGuard",
+      "api": "csp_ChildrenAiTuTuGuard",
       "searchable": 1,
       "changeable": 0,
       "style": {
@@ -467,10 +482,10 @@
       }
     },
     {
-      "key": "WexTangDou",
+      "key": "MusicAiTangDou",
       "name": "💃跳舞┃教学💃",
       "type": 3,
-      "api": "csp_WexTangDouGuard",
+      "api": "csp_MusicAiTangDouGuard",
       "searchable": 1,
       "changeable": 0,
       "style": {
@@ -479,10 +494,10 @@
       }
     },
     {
-      "key": "MusicLiYuan",
+      "key": "MusicAiLiYuan",
       "name": "🎎戏曲┃秒播🎎",
       "type": 3,
-      "api": "csp_MusicLiYuanGuard",
+      "api": "csp_MusicAiLiYuanGuard",
       "searchable": 1,
       "changeable": 0,
       "style": {
@@ -491,55 +506,176 @@
       }
     },
     {
-      "key": "MusicQingTing",
+      "key": "MusicAiQingTing",
       "name": "🎼蜻蜓┃电台🎼",
       "type": 3,
-      "api": "csp_MusicQingTingGuard",
+      "api": "csp_MusicAiQingTingGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "MusicIKtv",
+      "key": "MusicAiIKtv",
       "name": "🎼KTV┃音乐🎼",
       "type": 3,
-      "api": "csp_MusicIKtvGuard",
+      "api": "csp_MusicAiIKtvGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "Music163",
+      "key": "MusicAi163",
       "name": "🎼易听┃音乐🎼",
       "type": 3,
-      "api": "csp_Music163Guard",
+      "api": "csp_MusicAi163Guard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "MusicKuWo",
+      "key": "MusicAiKuWo",
       "name": "🎼酷听┃音乐🎼",
       "type": 3,
-      "api": "csp_MusicKuWoGuard",
+      "api": "csp_MusicAiKuWoGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "MusicLunHui",
+      "key": "MusicAiLunHui",
       "name": "🎼轮回┃舞曲🎼",
       "type": 3,
-      "api": "csp_MusicLunHuiGuard",
+      "api": "csp_MusicAiLunHuiGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "bilibiliys",
-      "name": " 🅱‍哔哩┃影视🅱‍",
+      "key": "SportAiFeiQiu",
+      "name": "🌐飞球┃体育🌐",
       "type": 3,
-      "api": "csp_NewBiLiYSGuard",
+      "api": "csp_SportAiFeiQiuGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "SportAiGuaZi",
+      "name": "🌐瓜子┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiGuaZiGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "SportAiKanQiuTong",
+      "name": "🌐球通┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiKanQiuTongGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "SportAiKanqiu",
+      "name": "🌐八八┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiKanqiuGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "SportAiKaFei",
+      "name": "🌐咖啡┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiKaFeiGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "SportAiWwe",
+      "name": "🌐WWE┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiWweGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "FakeAi115Share",
+      "name": "💓115┃分享💓‍",
+      "type": 3,
+      "api": "csp_FakeAi115ShareGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "Emby",
+      "name": "💓Emby┃4K💓",
+      "type": 3,
+      "api": "csp_EmbyGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Emby001",
+      "name": "💓Emby001┃4K💓",
+      "type": 3,
+      "api": "csp_EmbyDiyGuard",
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
-      "ext": "./txt/bilisong.txt"
+      "ext": {
+        "embynumber": 0
+      }
+    },
+    {
+      "key": "AList",
+      "name": "👁️Alist┃DIY👁️",
+      "type": 3,
+      "api": "csp_AListGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "webdav",
+      "name": "👁️WebDav┃DIY👁️",
+      "type": 3,
+      "api": "csp_WebDAVGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "DiyVod",
+      "name": "👁Vod┃DIY👁️",
+      "type": 3,
+      "api": "csp_DiyVodGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "biliys",
+      "name": "🅱哔哩┃影视🅱",
+      "type": 3,
+      "api": "csp_BiliYsGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "bilibili",
@@ -657,228 +793,34 @@
       }
     },
     {
-      "key": "SportFeiQiu",
-      "name": "🌐飞球┃体育🌐",
+      "key": "SoAiHaiYin",
+      "name": "🎠盘搜┃综合🎠",
       "type": 3,
-      "api": "csp_SportFeiQiuGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "SportGuaZi",
-      "name": "🌐瓜子┃体育🌐",
-      "type": 3,
-      "api": "csp_SportGuaZiGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "SportKanQiuTong",
-      "name": "🌐球通┃体育🌐",
-      "type": 3,
-      "api": "csp_SportKanQiuTongGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "SportKanqiu",
-      "name": "🌐八八┃体育🌐",
-      "type": 3,
-      "api": "csp_SportKanqiuGuard",
+      "api": "csp_SoAiHaiYinGuard",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "SportKaFei",
-      "name": "🌐咖啡┃体育🌐",
-      "type": 3,
-      "api": "csp_SportKaFeiGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "SportWwe",
-      "name": "🌐WWE┃体育🌐",
-      "type": 3,
-      "api": "csp_SportWweGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "emby",
-      "name": "🀄️emby┃4K🀄️",
-      "type": 3,
-      "api": "csp_EmbyGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "AList",
-      "name": "👁️Alist┃DIY👁️",
-      "type": 3,
-      "api": "csp_AListGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "webdav",
-      "name": "👁️WebDav┃DIY👁️",
-      "type": 3,
-      "api": "csp_WebDAVGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "DiyVod",
-      "name": "👁Vod┃DIY👁️",
-      "type": 3,
-      "api": "csp_DiyVodGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyQuark",
-      "name": "💓我的┃夸克💓‍",
-      "type": 3,
-      "api": "csp_MyQuarkGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyBaiDu",
-      "name": "💓我的┃百度💓‍",
-      "type": 3,
-      "api": "csp_MyBaiDuGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyUcPan",
-      "name": "💓我的┃UC💓‍",
-      "type": 3,
-      "api": "csp_MyUcPanGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyGuangYa",
-      "name": "💓我的┃光鸭💓‍",
-      "type": 3,
-      "api": "csp_MyGuangYaGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyPan189",
-      "name": "💓我的┃天翼💓‍",
-      "type": 3,
-      "api": "csp_MyPan189Guard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyPan115",
-      "name": "💓我的┃115💓‍",
-      "type": 3,
-      "api": "csp_MyPan115Guard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "Fake115Share",
-      "name": "💓115┃分享💓‍",
-      "type": 3,
-      "api": "csp_Fake115ShareGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyPan123",
-      "name": "💓我的┃123💓‍",
-      "type": 3,
-      "api": "csp_MyPan123Guard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "SoTySo",
-      "name": "🎠给力┃天逸🎠",
-      "type": 3,
-      "api": "csp_SoTySoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "SoBaiDuSo",
-      "name": "🎠给力┃百度🎠",
-      "type": 3,
-      "api": "csp_SoBaiDuSoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "SoHaiYin",
-      "name": "🎠海音┃综合🎠",
-      "type": 3,
-      "api": "csp_SoHaiYinGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "So97So",
+      "key": "SoAiPanSoo",
       "name": "🎠九七┃综合🎠",
       "type": 3,
-      "api": "csp_So97SoGuard",
+      "api": "csp_SoAiPanSooGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "SoAiQuPanShe",
+      "name": "🎠趣搜┃百度🎠",
+      "type": 3,
+      "api": "csp_SoAiQuPanSheGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "SoAiAiPanSo",
+      "name": "🎠爱盘┃综合🎠",
+      "type": 3,
+      "api": "csp_SoAiAiPanSoGuard",
       "searchable": 1,
       "changeable": 0
     },
@@ -889,6 +831,28 @@
       "api": "csp_PushGuard",
       "searchable": 1,
       "changeable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "王",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
+    },
+    {
+      "name": "二",
+      "type": 1,
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
+    },
+    {
+      "name": "小",
+      "type": 1,
+      "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url="
+    },
+    {
+      "name": "帅",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
     }
   ],
   "doh": [
