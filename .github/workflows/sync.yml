@@ -1,0 +1,59 @@
+name: Sync Fork
+
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC 00:30 / 16:30 = 北京时间 08:30 / 00:30，每天两次
+    - cron: '30 0,16 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout fork (tip only)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Sync to upstream tip (keep sync.yml)
+        run: |
+          set -e
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git remote add upstream https://github.com/ls125781003/tbapi1.git
+          # 上游会重写提交历史，rebase/merge 必然冲突，这里直接硬对齐上游最新提交
+          git fetch upstream main
+          git reset --hard upstream/main
+
+          # 放回 fork 自己的工作流（缺失则报错终止，避免下次定时任务消失）
+          git checkout origin/main -- .github/workflows/sync.yml
+          test -f .github/workflows/sync.yml || { echo "FATAL: sync.yml missing on fork tip"; exit 1; }
+
+      - name: Regenerate all.json from site folders
+        run: |
+          set -e
+          export LC_ALL=C
+          {
+            for d in */; do
+              d="${d%/}"
+              [ -f "$d/api.json" ] && printf 'https://raw.githubusercontent.com/%s/refs/heads/main/%s/api.json\r\n' "$GITHUB_REPOSITORY" "$d"
+            done
+          } > all.json
+          wc -l all.json
+
+      - name: Commit and push
+        run: |
+          set -e
+          UPSTREAM_SHA=$(git rev-parse --short upstream/main)
+          git add -A
+          if git diff --cached --quiet HEAD; then
+            echo "Already in sync with upstream ($UPSTREAM_SHA)."
+          else
+            git commit -m "sync upstream ${UPSTREAM_SHA} (regenerate all.json)"
+            git push --force origin main
+          fi
